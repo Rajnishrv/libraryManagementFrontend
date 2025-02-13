@@ -27,6 +27,7 @@ function App() {
           <Route path='/add-loan' element={<AddLoanComponent />} />     {/* http://localhost:3000/add-loan */}
           <Route path='*' element={<h1>404 Not Found</h1>} />           {/* http://localhost:3000/anything-else */}
           <Route path='/edit-member/:id' element={<AddMemberComponent />} /> {/* http://localhost:3000/edit-employee/1 */}
+          <Route path='/edit-book/:id' element={<AddBookComponent />} /> {/* http://localhost:3000/edit-employee/1 */}
         </Routes>
       </BrowserRouter>
     </>
